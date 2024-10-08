@@ -2,10 +2,12 @@ The project contains the HTML and CSS code I have written during my studies in S
 
 Topics the course covered:
 
-• Introduction to HTML & CSS 
-• CSS Box Model and Typography • CSS Layout - Flexbox 
-• Responsive Web Design 
-• Working with Forms 
-• Workshop: Build a Static Website 
+- Introduction to HTML & CSS
+- CSS Box Model and Typography
+- CSS Layout
+- Flexbox 
+- Responsive Web Design 
+- Working with Forms 
+- Workshop: Build a Static Website 
 
 Website https://softuni.bg 
