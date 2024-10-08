@@ -1,0 +1,19 @@
+div p {
+    color: blue;
+}
+
+p span {
+    color: red;
+}
+
+ul > li {
+    list-style: circle;
+}
+
+p + p {
+    color: blueviolet;
+}
+
+p ~ span {
+    color:chartreuse;
+}

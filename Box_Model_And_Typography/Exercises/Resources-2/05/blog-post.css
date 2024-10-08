@@ -1,0 +1,41 @@
+.blog-container {
+    border: 1px solid rgb(204, 202, 202);
+    margin: 50px auto;
+    border-radius: 5px;
+    width: 1000px;
+    height: 950px;
+    
+   
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+body {
+    padding: 20px, 60px;
+}
+
+.article-section {
+    max-width: 900px;
+    max-height: 900px;
+    border-spacing: 10px;
+    font-family: "Lato", sans-serif;  
+    margin: 0 auto 40px auto;
+    padding-bottom: 40px;
+}
+
+.f-bold {
+    font-weight: 600;
+}
+
+.article-section h3 {
+    font-weight: 520;
+}
+
+.second-main-section {
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: 20px;
+}

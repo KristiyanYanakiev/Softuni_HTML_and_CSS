@@ -1,0 +1,73 @@
+.css-box-model {
+        width: 50vw;
+        box-sizing: border-box;
+        margin: 50px auto;
+        ;
+}
+
+.css-box-model div {
+    border: 1px dashed gray;
+    margin: 0px 20px 20px 20px;
+
+}
+
+.content {
+    text-align: center;
+}
+
+
+.css-box-model .margin {
+    background-color: #ff966f;;
+    margin: 0px 10px 20px 20px;
+
+    
+}
+
+.css-box-model .border {
+    background-color: #ffe8c6;
+    
+
+}
+
+.css-box-model .padding {
+    background-color: #85eb85;
+    
+}
+
+.css-box-model .content {
+    background-color: #a3d2e2;
+    
+}
+
+.margin::before {
+    content: "margin";
+    padding-left: 10px;
+    display: block;
+    font-size: smaller;
+
+}
+
+.border::before {
+    content: "border";
+    padding-left: 10px;
+    display: block;
+    font-size: smaller;
+}
+
+.padding::before {
+    content: "padding";
+    padding-left: 10px;
+    display: block;
+    font-size: smaller;
+}
+
+.content {
+    display: block;
+    font-size: smaller;
+    ;
+}
+
+::before {
+    padding: 0px 5px 5px 5px;
+    font-size: 1rem;
+}

@@ -1,0 +1,28 @@
+.green-border {
+    border: 2px solid green;
+    margin: 0;
+    padding: 20px 0px;
+}
+
+.blue-border {
+    border: 2px solid blue;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    
+}
+
+header, main {
+    border: 2px solid black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    border: 2px solid black;
+    text-align: center;
+}
+
+header, main, footer {
+    font-weight: 600;
+}

@@ -1,0 +1,37 @@
+article.highlighted p {
+    background-color: red;
+}
+
+ul > li {
+    color: blueviolet;
+}
+
+.link_list > li {
+    background-color: chartreuse;
+    color: blue;
+}
+
+article.highlighted + article {
+    background-color: aqua;
+}
+
+h2 ~ p {
+    font-style: italic;
+}
+
+section + ul {
+    background-color: black;
+    color: white;
+}
+
+ul.item_list > :nth-child(2) {
+    color: white
+}
+
+ul.link_list > :first-child, ul.link_list > :nth-child(2) {
+    background-color: brown;
+    color: yellow;
+}
+
+
+}

@@ -1,0 +1,35 @@
+.container {
+   
+    box-sizing: border-box;
+    border: 0.5px solid;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+
+header, div, footer {
+    margin: 10px;
+    padding: 10px
+
+}
+
+
+nav a, footer a {
+    color: black; /* Default link color */
+    text-decoration: none; /* No underline */
+}
+
+nav a:hover, footer a:hover {
+    
+    color: blue; /* Change color to blue on hover */
+    background-color: blueviolet;
+    text-decoration: underline; /* Underline the link on hover */
+}
+
+div.upper_container, h1, div.container > p {
+    color: red;
+    background-color: aqua;
+}

@@ -1,0 +1,29 @@
+ul.some {
+    color: red;
+}
+
+.highlighted {
+    color: chartreuse;
+    font-size: 25px;
+}
+
+div#special_content {
+    background-color: coral;
+    padding: 20px;
+}
+
+input[type="text"].my_first_input {
+    border-color: cornflowerblue;
+    padding: 15px;
+
+}
+
+p.final.important{
+    font-style: oblique;
+    font-weight: 900;
+}
+
+p.final.important.specific{
+    font-style:initial;
+    font-weight: 50;
+}

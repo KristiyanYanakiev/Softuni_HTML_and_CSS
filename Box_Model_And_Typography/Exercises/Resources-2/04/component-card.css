@@ -1,0 +1,44 @@
+body {
+    background-color: #ebebeb;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body a {
+    color: inherit;
+    text-decoration: none;
+    
+}
+
+.card {
+    width: 30%;
+    margin: 30px auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px;
+    overflow: hidden;
+    background: white;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.text-container h2 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.text-container {
+    padding: 10px 20px;
+}
+
+footer p {
+    margin: 0px;
+}
+
+.f-bold {
+    font-weight: 600;
+}
+
+.f-italic {
+    font-style: italic;
+}

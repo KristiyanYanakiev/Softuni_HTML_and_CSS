@@ -1,0 +1,45 @@
+
+
+nav > ul > li > .home {
+    color: brown;
+    font-weight: 900;
+}
+
+div#section > section > article > p {
+    background-color: blueviolet;
+}
+
+
+section + h2 {
+    color: mediumseagreen;
+
+}
+
+section.our_services ~ article {
+    font-style: italic;
+}
+
+.my-form input[type="text"] {
+    border: 2px solid blue;     /* Blue border for text input */
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 5px;              /* Padding inside the input */
+    font-size: 20px;            /* Font size for text input */
+    border-radius: 4px;        /* Rounded corners */
+}
+
+article :first-child {
+    background-color: blue;
+}
+
+article :nth-child(2) {
+    background-color: blueviolet;
+}
+
+nav::before {
+    content: "start of nav";
+    padding: 20px;
+}
+
+.in_red {
+    color: red;
+}
