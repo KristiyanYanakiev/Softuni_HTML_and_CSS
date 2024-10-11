@@ -1,0 +1,27 @@
+body {
+    font-family: Lato, sans-serif;
+}
+
+
+.main-container {
+    width: 70%;
+    margin: 30px auto;
+}
+
+.main-container details {
+    border: 1px solid silver;
+    border-bottom: 0px;
+    padding: 20px;
+}
+
+.main-container details:last-child {
+    border: 1px solid silver;
+    border-bottom: 1px solid silver
+
+}
+
+.main-container summary {
+    font-weight: 600;
+    cursor: pointer;
+}
+
