@@ -1,0 +1,19 @@
+.background {
+    background-image: url(images/image1.jpg);
+    background-position: center;
+    align-items: center;
+    height: 49vw;
+    justify-content: center;
+    margin: 0
+
+}
+
+.content {
+    text-decoration-color: white;
+    align-items: center;
+    place-items: center;
+    text-align: center;
+    color: white;
+    padding: 300px
+
+}
