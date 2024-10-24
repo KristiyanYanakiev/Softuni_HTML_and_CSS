@@ -1,0 +1,52 @@
+.main {
+    padding-left: 10px;
+    
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+a {
+    border: solid 1px lightgray; 
+    border-radius: 5px;
+    padding: 10px;
+    color: inherit;
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 10px;
+    
+}
+
+section :nth-child(3) {
+    background-color: lightgrey;
+}
+
+section :last-child {
+    background-color: lightgray;
+   
+}
+
+
+section :nth-child(4) {
+    background-color: orange;
+}
+
+section :nth-child(5) {
+    background-color: lightyellow;
+}
+
+section :nth-child(6) {
+    background-color: white;
+}
+
+i {
+    padding-right: 5px;
+}
+
+
+
+body > * {
+    display: inline-block;
+}
+
