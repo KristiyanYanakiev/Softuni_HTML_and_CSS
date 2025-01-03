@@ -44,3 +44,18 @@ article {
     
 
 }
+
+header::after,
+footer::before {
+    content: "";
+    height: 2px;
+    width: 50px;
+    background-color: #EEE;
+    display: block;
+    border-radius: 3px;
+    margin: 30px auto 0 auto;
+}
+
+footer::before {
+    margin: 0 auto 30px auto; 
+}
