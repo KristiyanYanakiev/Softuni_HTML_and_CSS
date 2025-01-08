@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+h2 { 
+    margin-bottom: 20px;
+}
+
+body {
+    padding-top: 40px;
+}
+
+
+ul {
+    
+    padding: 0 0 0 2em;
+    
+}
+
+ul li {
+    display: block;
+    list-style: none outside;
+}
+
+ul li li::after {
+    display: block;
+    content: "";
+    border: solid #ccc;
+    border-width: 0 0 2px 2px;
+    border-bottom-left-radius: 0.3em;
+    width: 1em;
+    height: 1em;
+}
+
+details summary {
+    display: flex;
+}
+    
+
+details summary::before {
+    width: 1.2em;
+    height: 1.2em;
+    content: "+";
+    background-color: green;
+    color: #FFF;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    align-content: center;
+    
+}
+
+details[open] > summary::before {
+    content: "-";
+}
