@@ -1,0 +1,43 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.site {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: 2px solid green;
+
+}
+
+.sticky {
+    position: sticky;
+    top: 0
+}
+
+header {
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+main {
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 20px;
+    height: 400px;
+}
+
+footer {
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+
+
+
+
