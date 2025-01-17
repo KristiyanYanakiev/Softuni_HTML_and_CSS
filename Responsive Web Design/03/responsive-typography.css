@@ -1,0 +1,116 @@
+
+ul {
+    list-style: square;
+}
+
+ul ul {
+    list-style: disc;
+}
+
+ul ul ul {
+    list-style: circle;
+}
+
+.container {
+    margin: 20px auto;
+    background-color: #fff;
+    width: 50%;
+    padding: 20px;
+}
+
+body {
+    background-color: #eee;
+}
+
+section {
+    padding: 20px;
+}
+
+section:nth-of-type(1) {
+    padding-top: 40px;
+
+}
+
+
+
+section:nth-of-type(1)::after, section:nth-of-type(2)::after  {
+    content: "";
+    display: block;
+    height: 1px;
+    width: inherit;
+    background-color: grey;
+    border: 2px solid   grey;
+    border-radius: 5px;
+    
+}
+
+table {
+    width: 100%;
+    border-spacing: 0 ;
+}
+
+th {
+    background-color: grey;
+    text-align: start;
+    border-collapse: collapse;
+}
+
+tr:nth-of-type(even) {
+    background-color: lightgray;
+}
+
+td, th {
+    border: 1px solid gray ;
+    
+    padding: 5px;
+}
+
+table > * {
+    margin: 0;
+}
+
+th:nth-of-type(1) {
+    border-right: none;
+}
+
+blockquote {
+    display: flex;
+
+}
+
+blockquote > .line {
+    display: block;
+    content: "";
+    background-color: gray;
+    height: inherit;
+    border: 1px solid grey;
+    width: 5px;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.author { 
+    float: right;
+}
+
+.quote {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 50%;
+    }
+
+   
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 70%;
+    }
+
+   
+}
