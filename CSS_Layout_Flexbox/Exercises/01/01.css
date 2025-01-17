@@ -45,6 +45,7 @@ article {
 
 }
 
+
 header::after,
 footer::before {
     content: "";
