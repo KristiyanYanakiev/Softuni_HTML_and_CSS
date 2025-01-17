@@ -59,3 +59,28 @@ footer::before {
 footer::before {
     margin: 0 auto 30px auto; 
 }
+
+
+@media (max-width: 610px) {
+    article {
+        flex: 0 0 100%;
+        
+    
+    }
+
+}
+
+@media print {
+    .container::after {
+        content: "it is being printed";
+        display: block;
+        height: 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    article {
+        flex: 0 0 calc(100% / 100)
+        
+    }
+}
