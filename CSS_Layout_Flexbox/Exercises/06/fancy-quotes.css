@@ -10,3 +10,80 @@ a {
     text-decoration: none;
 }
 
+body {
+    background-color: #eee;
+
+}
+
+.container {
+    background-color: #fff;
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 3px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.left-part {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex: 0 0 70%;
+}
+
+.right-part {
+    flex: 1 0 auto
+}
+
+i {
+    font-size: 30px;
+}
+
+.author {
+    font-weight: 800;
+}
+
+.outer-circle {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 50%;
+    
+    
+
+}
+
+.inner-circle {
+    background-color: green;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+
+}
+
+
+.right-quote {
+    flex-direction: column;
+}
+
+
+.whole-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.whole-container > .whole-left-part {
+    flex: 0 0 70%;
+}
+
+.whole-container > .whole-right-part {
+    flex: 1 0 auto;
+}
