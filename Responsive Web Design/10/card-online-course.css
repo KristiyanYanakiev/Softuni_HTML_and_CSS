@@ -1,0 +1,207 @@
+body {
+    background-color: #eee;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.site {
+    max-width: 1200px;
+    position: relative;
+
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.card-container {
+
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+    
+
+img {
+
+    background-size: cover;
+    width: 100%;
+    
+}
+
+.image-holder {
+    position: relative;
+    
+}
+
+.course {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: green;
+    color: white;
+    font-size: 10px;
+
+
+}
+
+.course > p {
+    opacity: 0.7;
+}
+
+.image-holder > .round-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 5px solid white;
+    position: absolute;
+    bottom: -40px;
+    right: -10px;;
+    
+}
+
+.author {
+    position: absolute;
+    bottom: -20px;
+    right: 30px;;
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    padding-right: 30px;
+    font-weight: 700;
+    z-index: 2;
+
+}
+
+.round-img {
+    z-index: 2;
+}
+
+.image-holder > .header {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 10px;
+    margin: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: absolute;
+    right: 0;
+    bottom: -90px;
+    z-index: 1;
+}
+
+h2 {
+    border-bottom: 1px solid lightgray;
+
+}
+
+.groups-info {
+   display: flex;
+   justify-content: space-between;
+   
+
+}
+
+.groups-info > p {
+    font-weight: 700;
+}
+
+.group-schedule > .start-end, .group-schedule > .schedule-dates, footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: grey;
+
+}
+
+.start-end > .move-left {
+    align-self: center;
+}
+
+.start-end, .schedule-dates {
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.group-schedule {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer {
+    border: 1px solid lightgray;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+
+footer > p {
+    color: green;
+    font-size: 20px;
+    
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.site {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+
+    
+}
+
+.site > .card-container {
+    flex: 0 0 calc(100% / 3);
+}
+
+.groups {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.groups > * {
+    margin-top: 50px;
+}
+
+.schedule {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.groups-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .site {
+        flex-direction: column;
+    }
+    
+   
+}
