@@ -1,11 +1,4 @@
-finish the bottom groups text 
+left: 
 
-+ 
-
-put 3 cards in a flex container 
-
-+ 
-
-make the flex container with the 3 cards flex-direction column on mobile device
-
+02, 07, 08, 09 
 
