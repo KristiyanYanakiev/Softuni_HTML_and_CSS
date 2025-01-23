@@ -1,4 +1,19 @@
 left: 
 
-07, 08, 09 
+ 08, 09 
 
+
+
+    
+
+ball: 
+
+
+    content: "";
+    display: block;
+    background-color: green;
+    height: 20px;
+    width: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    flex: 0 0 auto;
