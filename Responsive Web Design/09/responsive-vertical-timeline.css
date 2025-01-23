@@ -87,8 +87,7 @@ section > div::before {
     border: 2px solid white;
     border-radius: 50%;
     position: absolute;
-    left: calc(50% - 10px);
-    top: 10%;  
+    left: calc(50% - 11px);
     z-index: 2; 
 }
 
@@ -96,7 +95,7 @@ section:nth-of-type(odd) > div::before {
     background-color: orange;
 }
 
-section {
+.section {
     position: relative;
 }
 
