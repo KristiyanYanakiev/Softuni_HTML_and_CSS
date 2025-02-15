@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Tasks</title>
+    <link rel="stylesheet" href="task.css">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="login">
+            <h2>Login</h2>
+            <div class="separating-line"></div>
+        </div>
+        <div class="input">
+            <label for="email"> <div>Email <span class="red">*</span></div> <i class="fa-solid fa-envelope"></i></label>
+            <input type="text" name="email" id="email">
+            <p class="example">example: konstantin.dankov@gmail.com</p>
+        </div>
+
+        <div class="input">
+            <label for="password"> <div>Password <span class="red">*</span></div> <i class="fa-solid fa-key"></i></label>
+            <input type="text" name="password" id="password" minlength="6" pattern="(?=.*\d)(@$!%*?&)">
+            <p class="password-requirements">minimum 6 characters, letters and numbers, at least 1 special character</p>
+            <button type="submit">Login</button>
+
+        </div>
+
+        
+    </div>
+    
+</body>
+</html>

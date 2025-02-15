@@ -1,0 +1,84 @@
+body {
+    background: #eee;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    max-width: 80%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  
+}
+
+legend {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+input {
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+input::placeholder {
+    font-weight: 600;
+    color: black;
+}
+
+.separating-line {
+    height: 2px;
+    background-color: lightgray;
+}
+
+
+p.example, p.password-requirements {
+    opacity: 0.6;
+}
+
+button {
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-weight: 600;
+    padding: 20px;
+    cursor: pointer;
+
+    
+    
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
+legend, input::placeholder {
+    color: grey;
+    font-weight: 900;
+    
+}
+
+div.birthday-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.birthday-form > i {
+    align-self: center;
+}
