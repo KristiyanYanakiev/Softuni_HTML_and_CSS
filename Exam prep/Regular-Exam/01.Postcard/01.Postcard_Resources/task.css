@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Gochi Hand';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/gochihand/v23/hES06XlsOjtJsgCkx1Pkfon_-18kTWE.woff2) format('woff2');
+  }
+
+body {
+    background-color: #eee;
+    font-family: 'Gochi Hand', cursive;
+      
+
+}
+
+img {
+    display: block;
+    height: auto;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+   
+}
+
+.container {
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.lower-container {
+    border-top: 1px solid lightgray;
+    margin-left: -20px;
+    margin-right: -20px;
+
+    
+}
+
+div.upper-container {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+div.position-absolute {
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+    color: rgb(104, 100, 100);
+    position: absolute;
+    bottom: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: #ebe8e8
+    
+}
+
+div.position-absolute > h2 {
+    color: black;
+}
+
+.lower-container {
+    padding-left: 40px;
+    
+}
+
+.lower-container > h2 {
+    margin-bottom: 30px;
+}
+
+.lower-container > p {
+    opacity: 0.5
+    
+}
