@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .site-section {
+    max-width: 1920px;
+    padding: 20px;
+  }
+
+  .site-section .text-container {
+    max-width: 1440px;
+    padding: 10px 100px
+  }
+  img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .banner header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo-container > img {
+    width: 110px;
+    height: 80px;
+  }
+
+  .banner > header > nav > ul {
+    display: flex;
+    gap: 10px;
+  }
+
+  .banner > header > nav > ul > li, .footer li {
+    list-style: none outside;
+  }
+
+  .site-section.banner {
+    color: #fff;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    
+  }
+
+  html {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    
+  }
+
+  .banner .text-container  {
+    
+    margin-bottom: 100px;
+    
+  }
+
+  .banner p {
+    text-align: start;
+    max-width: 800px;
+
+  }
+  .banner h2 {
+    margin-bottom: 30px;
+  }
+
+  .site-section.business-aimes-objectives {
+    background-color: #fff;
+    
+  }
+
+  .site-section.footer, .site-section.final-footer {
+    background-color: #171720;
+    color: #fff;
+    
+    
+  }
+
+  .site-section.footer h2, .site-section.final-footer h2 {
+    color: #fff;
+  }
+
+  .site-section.footer ul, .site-section.final-footer ul, .final-footer  p {
+    color: #fff;
+    opacity: 0.5;
+  }
+
+.column-container {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.site-section.business-aimes-objectives .button {
+    text-decoration: none;
+    color: #B0825C;
+    border: 1px solid #B0825C;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+
+.site-section.business-aimes-objectives {
+    border: 2px solid lightgray;
+    padding-bottom: 70px;
+}
+
+.sponsors-partners h2 {
+    text-align: center;
+    color: #B0825C;;
+}
+
+.sponsors-partners p {
+    text-align: center;
+}
+
+.images-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.images-row .image-container {
+    width: 180px;
+    height: auto;
+    aspect-ratio: 1/1;
+    background-color: #DDDDDD;
+    border-radius: 50%;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 35px;
+    
+}
+
+.final-footer {
+    border-top: 2px solid lightgrey;
+    
+}
+
+.footer {
+    text-transform: uppercase;
+    
+}
+
+.footer .vertical-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+
+.footer .column-container {
+    gap: 30px;
+}
