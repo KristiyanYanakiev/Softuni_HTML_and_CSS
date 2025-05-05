@@ -1,29 +1,52 @@
-@media  (max-width: 600px) {
-    nav {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .our-dogs ul {
-        gap: 40px;
-    }
-
-    .our-dogs ul li {
-        flex: 0 0 calc(50% - 40px);
+@media (max-width: 600px) {
+    header nav img {
+        display: none;
         
     }
 
-    .our-dogs ul li img {
-    width: 100%;
-    height: 200px;
-    padding-bottom: 0.3rem;
-    
-}
-    .helpNeed ul {
-    display: flex;
+    header nav {
+        
+        display: flex;
+        width: 100%;
+        margin-bottom: 2px;
+        justify-content: center;
+        margin-top: 80px;
+        
+    }
+
+    header {
+        margin-top: 4;
+    }
+
+   .header-title {
+        padding-top: 0;
+   }
+
+   
+
+   .our-dogs-wrapper ul li img {
+        width: 150px;
+        height: auto;
+        aspect-ratio: 1/1;
+   }
+
+   .our-dogs-wrapper ul li {
+        
+        flex: 1 1 35%;
+        
+   }
+
+   .our-dogs-wrapper ul li:nth-of-type(1),
+   .our-dogs-wrapper ul li:nth-of-type(3) {
+    margin-right: 80px;
+   }  
+
+   .our-dogs-wrapper ul li img {
+        width: 100%;
+        height: auto;
+   }
+   
+   .helpNeed ul {
     flex-direction: column;
-    
-}
-    
+   }
 }

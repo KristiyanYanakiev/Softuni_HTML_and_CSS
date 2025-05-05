@@ -1,83 +1,95 @@
-@font-face {
-    font-family: 'Gochi Hand';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/gochihand/v23/hES06XlsOjtJsgCkx1Pkfon_-18kTWE.woff2) format('woff2');
-  }
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Gochi Hand";
+}
 
 body {
-    background-color: #eee;
-    font-family: 'Gochi Hand', cursive;
-      
-
+    background-color: #E0E0E0;
 }
 
-img {
-    display: block;
-    height: auto;
-    width: 100%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-   
-}
-
-.container {
-    padding: 20px;
+.main-container {
+    max-width: 1000px;
     margin: 30px auto;
-    width: 80%;
-    border: 1px solid lightgrey;
-    border-radius: 15px;
     background-color: #fff;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    display: flex;
-    flex-direction: column;
+    border-radius: 10px;
     
 }
 
-.lower-container {
-    border-top: 1px solid lightgray;
-    margin-left: -20px;
-    margin-right: -20px;
-
-    
-}
-
-div.upper-container {
-    position: relative;
+.image-container {
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-}
 
-
-div.position-absolute {
-    text-align: center;
-    border: 1px solid lightgrey;
-    border-radius: 15px;
-    color: rgb(104, 100, 100);
-    position: absolute;
-    bottom: 40px;
-    margin-right: 50px;
-    margin-left: 50px;
-    background: #ebe8e8
     
 }
 
-div.position-absolute > h2 {
+.image-container img {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.site-section.upper {
+    border-bottom: 1px solid #CCCCCC;
+    position: relative;
+}
+
+.site-container {
+    padding: 20px;
+}
+
+.site-section.upper .text-container {
+    border-radius: 10px;
+    background-color: #F4F3F3;
+    padding: 15px 30px;
+    
+
+}
+
+.site-section.upper .text-container h2 {
+    text-align: center;
+    margin: 15px auto;
     color: black;
 }
 
-.lower-container {
-    padding-left: 40px;
-    
+.site-section.upper .text-container p {
+    text-align: justify;
+   
 }
 
-.lower-container > h2 {
-    margin-bottom: 30px;
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 30px;
 }
 
-.lower-container > p {
-    opacity: 0.5
-    
+.column .adress {
+    display: flex;
+    line-height: 1.4;
+    color: #6B6866;
+}
+
+.image-container {
+    z-index: 0;
+}
+
+.text-container {
+    z-index: 1;
+    position: absolute;
+    bottom: 35px;
+    right: 10px;
+    max-width: 890px;
+    right: 50px;
+    color: #6B6866;
+
 }
