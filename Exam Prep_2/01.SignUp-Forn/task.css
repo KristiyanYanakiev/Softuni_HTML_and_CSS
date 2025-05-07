@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Kode Mono";
+    
+}
+
+.container {
+    width: 1920px;
+    height: 900px;
+    background-color: #C1BDBA;
+    
+}
+
+.site-content {
+
+    max-width: 642px;
+    margin: 30px auto;
+
+
+}
+
+
+.form-container {
+    margin: 30px auto;
+    background-color: #24333C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+.form-container .button-container {
+    display: flex;
+    align-self: center;
+    margin-top: 30px;
+    width: 80%;
+    
+    
+}
+
+.button-container > .first-button, .submit-button {
+    color: #fff;
+    text-decoration: none;
+    background-color: #1AB188;
+    padding: 5px;
+    flex: 1 1 auto;
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+.button-container > .second-button {
+    color: #fff;
+    text-decoration: none;
+    background-color: #435359;
+    padding: 5px;
+    flex: 1 1 auto;
+    text-align: center;
+    font-size: 35px;
+}
+
+.container h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 30px;
+
+}
+
+input {
+    border: 1px solid #7b7a7a;
+    background-color: inherit;
+    font-size: 20px;
+    padding: 10px;
+    font-family: inherit;
+    
+    
+    
+}
+
+.form-row:first-of-type {
+    display: flex;
+    gap: 10px;
+}
+
+.form-row:first-of-type > * {
+   flex: 1 1 calc(50% - 10px);
+}
+
+.form-row:nth-of-type(2) input, 
+.form-row:nth-of-type(3) input {
+    width: calc(100% - 20px);
+}
+
+.submit-button {
+    padding: 20px;
+    width: 97%;
+}
+
+.input {
+    position: relative;
+}
+
+.input .position-absolute {
+    color: #1AB188;
+    position: absolute;
+}
+
+.input .position-absolute.first {
+   
+    top: 13px;
+    right: 130px;
+    
+}
+
+.input .position-absolute.second {
+   
+    top: 13px;
+    right: 140px;
+    
+}
+
+.input .position-absolute.third {
+   
+    top: 13px;
+    right: 371px;
+    
+}
+
+.input .position-absolute.fourth {
+   
+    top: 13px;
+    right: 360px;
+    
+}
+
+.second-button:hover {
+    background-color: #179A77;
+}
